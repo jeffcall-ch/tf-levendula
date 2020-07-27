@@ -94,7 +94,7 @@ h2 {
 }
 
 .row:after {
-    /* Clear floats after the columns */
+    /* Clear floats after the columns  */
     content: "";
     display: table;
     clear: both;
