@@ -70,7 +70,7 @@ div.commentblock {
   height: auto;
 	margin-top: 50px;
 	margin-left: 50px;
-	position: relative;
+  position: relative;
 }
 
 div.comment-text{
@@ -80,7 +80,7 @@ div.comment-text{
 	position: absolute;
 	margin-left: 5%;
 	margin-top: 5%;
-	font-style: italic;
+  font-style: italic;
 }
 
 .comment-text h1{
