@@ -1,0 +1,93 @@
+body {
+  background: white;
+}
+
+header {
+  background-image: url("../img/header_background.jpg");
+  background-size: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+nav {
+  background: #BD87BF;
+  /*levandlight*/
+  height: auto;
+  padding: 10px;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 3%;
+  padding: 0.5%;
+  font-size: 30px;
+}
+
+nav a:hover {
+  background: #E2B7E2;
+  /*pastel rose*/
+  color: #333333;
+  /*dark gray*/
+}
+
+.active {
+  color: #333333;
+  background: #E2B7E2;
+  /*pastel rose*/
+}
+
+h2 span {
+  padding: 0 40px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+h2 {
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* @media (min-width: 768px)  */
+h2 {
+  background: url("../img/dots.png") repeat-x 0 center;
+}
+
+div.commentblock {
+  background: blue; /*levandlight*/
+  height: auto;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: relative;
+}
+
+div.comment-text{
+  background: #BD87BF; /*levandlight*/
+	padding: 20px 50px 30px 100px;
+	width: 55%;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 5%;
+	font-style: italic;
+}
+
+.comment-text h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	text-decoration: underline;
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+}

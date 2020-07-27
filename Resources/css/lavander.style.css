@@ -1,0 +1,40 @@
+body {
+  font-size: 14pt;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+ul {
+  background: #ffb94a;
+  padding: 30px;
+}
+
+ul li {
+  color: #74445e; /* sötétlila */
+  padding: 10px;
+}
+
+ul li li {
+  color: #ad7fad; /* középlila */
+}
+
+ul li:hover {
+  background: #74445e;
+  color: white;
+}
+
+ul li ul:hover {
+  background: #e2b3df;
+  color: #74445e;
+}
+
+ul li li:hover {
+  background: #74445e;
+  color: white;
+}
+
+ul li:hover ul {
+  background: #e2b3df; /* világoslila */
+  color: #74445e;
+}

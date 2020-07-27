@@ -1,0 +1,38 @@
+body {
+  font-size: 14pt;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+ul {
+  background: beige;
+  padding: 30px;
+}
+
+ul li {
+  color: darkorange;
+  padding: 10px;
+}
+
+ul li li {
+  color: #333333; /* sötétszürke */
+}
+
+ul li:hover {
+  background: darkorange;
+  color: white;
+}
+
+ul li ul:hover {
+  background: orange;
+}
+
+ul li li:hover {
+  background: #ffb329;
+  color: #333333;
+}
+
+ul li:hover ul {
+  background: orange;
+}
