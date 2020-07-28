@@ -29,15 +29,12 @@ nav a {
 
 nav a:hover {
     background: #E2B7E2;
-    /*pastel rose*/
     color: #333333;
-    /*dark gray*/
 }
 
 .active {
     color: #333333;
     background: #E2B7E2;
-    /*pastel rose*/
 }
 
 h2 span {
@@ -63,6 +60,9 @@ h2 {
     background: url("../img/dots.png") repeat-x 0 center;
 }
 
+
+/* comments section */
+
 * {
     box-sizing: border-box;
 }
@@ -82,7 +82,7 @@ h2 {
 }
 
 .row {
-    padding: 40px;
+    padding: 60px;
 }
 
 .left-side {
@@ -139,4 +139,91 @@ div.commenter-image-right2 {
     background-size: 100%;
     width: 150px;
     height: 150px;
+}
+
+
+/* form */
+
+form {
+    margin-top: 60px;
+}
+
+div.form {
+    padding: 30px;
+    font-family: Verdana;
+    font-size: 14px;
+    width: 50%;
+    background: #BD87BF;
+    float: left;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: white;
+}
+
+.form-input {
+    background: white;
+    border: 1px solid #E0E0E0;
+    height: 30px;
+    width: 42%;
+    font-family: Verdana;
+    padding: 5px;
+    margin: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+#message-area {
+    height: 80px;
+    width: 90%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* info area */
+
+#infos {
+    background: #BD87BF;
+    /*mallow purple*/
+    padding: 38px;
+}
+
+#infos p {
+    padding: 5px;
+    margin-left: 5%;
+    color: white;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+button:hover {
+    background: #E2B7E2;
+    color: #333333;
+}
+
+footer {
+    color: #333333;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana;
+    font-size: 12px;
 }
