@@ -118,7 +118,7 @@ div.comment-text {
 }
 
 div.commenter-image-right {
-    background-image: url('../img/bendeguz.jpg');
+    background-image: url("../img/bendeguz.jpg";
     border-radius: 50%;
     background-size: 100%;
     width: 150px;
@@ -126,7 +126,7 @@ div.commenter-image-right {
 }
 
 div.commenter-image-left {
-    background-image: url('../img/brigitta.jpg');
+    background-image: url("../img/brigitta.jpg");
     border-radius: 50%;
     background-size: 100%;
     width: 150px;
@@ -134,7 +134,7 @@ div.commenter-image-left {
 }
 
 div.commenter-image-right2 {
-    background-image: url('../img/benji.jpg');
+    background-image: url("../img/benji.jpg");
     border-radius: 50%;
     background-size: 100%;
     width: 150px;
