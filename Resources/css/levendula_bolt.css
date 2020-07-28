@@ -78,10 +78,11 @@ h2 {
 
 .narrow {
     width: 30%;
+    padding: 20px;
 }
 
 .row {
-    padding: 20px;
+    padding: 40px;
 }
 
 .left-side {
@@ -102,7 +103,7 @@ h2 {
 
 div.comment-text {
     background: #BD87BF;
-    padding: 50px;
+    padding: 30px;
     margin-top: 0%;
     font-style: italic;
 }
@@ -114,4 +115,28 @@ div.comment-text {
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
     font-style: normal;
+}
+
+div.commenter-image-right {
+    background-image: url('../img/bendeguz.jpg');
+    border-radius: 50%;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+div.commenter-image-left {
+    background-image: url('../img/brigitta.jpg');
+    border-radius: 50%;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+div.commenter-image-right2 {
+    background-image: url('../img/benji.jpg');
+    border-radius: 50%;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
 }
