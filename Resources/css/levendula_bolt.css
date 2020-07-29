@@ -19,7 +19,8 @@ header {
 }
 
 nav {
-    background: #BD87BF;
+    background: #98639b;
+    /* background: #BD87BF; */
     height: auto;
     padding: 10px;
     font-family: 'Amatic SC', cursive;
@@ -36,19 +37,21 @@ nav a {
 }
 
 nav a:hover {
-    background: #E2B7E2;
+    /* background: #E2B7E2; */
+    background: #e2a32e;
     color: #333333;
 }
 
 .active {
     color: #333333;
-    background: #E2B7E2;
+    /* background: #E2B7E2; */
+    background: #e2a32e;
 }
 
 h2 span {
     display: inline-block;
     padding: 20px 40px;
-    background-color: #BD87BF;
+    background-color: #e2a32e;
 }
 
 h2 {
@@ -114,13 +117,14 @@ h2 {
 }
 
 div.comment-text {
-    background: #BD87BF;
+    background: #98639b;
     padding: 30px;
     margin-top: 0%;
     font-style: italic;
 }
 
 .comment-text h1 {
+    color: #e2a32e;
     font-size: 30px;
     text-transform: uppercase;
     padding-bottom: 20px;
@@ -159,7 +163,7 @@ div.commenter-image-right2 {
 .bottom-row {
     padding: 0%;
     margin-top: 80px;
-    background: #BD87BF;
+    background: #98639b;
 }
 
 .bottom-row:after {
@@ -190,7 +194,7 @@ div.form {
     padding-top: 30px;
     font-family: Verdana;
     font-size: 14px;
-    background: #BD87BF;
+    background: #98639b;
     float: left;
     text-align: center;
 }
@@ -202,7 +206,7 @@ h3 {
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    color: white;
+    color: #e2a32e;
 }
 
 .form-input {
@@ -230,7 +234,7 @@ textarea {
 /* info area */
 
 #infos {
-    background: #BD87BF;
+    background: #98639b;
     padding: 31px;
 }
 
@@ -251,8 +255,8 @@ button {
 }
 
 button:hover {
-    background: #E2B7E2;
-    color: #333333;
+    background: #e2a32e;
+    color: #696da3;
 }
 
 footer {
@@ -276,6 +280,16 @@ footer {
 }
 
 .btn:hover {
-    background: #E2B7E2;
-    color: #333333;
+    background: #e2a32e;
+    color: #696da3;
+}
+
+
+/* szineket kiprobalni */
+
+custom_colors {
+    background: #86837c;
+    background: #98639b;
+    background: #9b9467;
+    background: #696da3;
 }
