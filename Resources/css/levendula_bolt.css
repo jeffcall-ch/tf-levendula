@@ -37,14 +37,14 @@ nav a:hover {
 }
 
 h2 span {
-    padding: 0 40px;
     display: inline-block;
-    background-color: #fff;
+    padding: 20px 40px;
+    background-color: #BD87BF;
 }
 
 h2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 80px;
     margin-left: 80px;
     margin-right: 80px;
     font-size: 50px;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .wide {
-    width: 70%;
+    width: 55%;
 }
 
 .narrow {
@@ -80,8 +80,12 @@ h2 {
     padding: 20px;
 }
 
+.empty {
+    width: 3%;
+}
+
 .row {
-    padding: 60px;
+    padding: 60px 120px 60px 120px;
 }
 
 .left-side {
@@ -145,6 +149,7 @@ div.commenter-image-right2 {
 
 .bottom-row {
     padding: 0%;
+    margin-top: 80px;
     background: #BD87BF;
 }
 
@@ -173,11 +178,12 @@ form {
 }
 
 div.form {
-    padding: 30px;
+    padding-top: 30px;
     font-family: Verdana;
     font-size: 14px;
     background: #BD87BF;
     float: left;
+    text-align: center;
 }
 
 h3 {
@@ -221,19 +227,25 @@ textarea {
 
 #infos p {
     padding: 5px;
-    margin-left: 5%;
     color: white;
 }
 
-button {
-    margin-top: 30px;
-    margin-bottom: 30px;
+button-submit {
     background: transparent;
     color: white;
     border: 1px solid white;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
-    margin-right: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 20px 10px 20px 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
 }
 
 button:hover {
@@ -249,25 +261,3 @@ footer {
     font-family: Verdana;
     font-size: 12px;
 }
-
-
-/* Kommentek Fanni 29.07.2020 17:30
-
-vasarlóink tollából fölé hely
-
-Szineket változtatni
-
-Vásárlóink tollából mögé lila box
-
-vélemény box és kép közé távolság extra oszlop és ne menjen annyira ki a szélére
-
-Bendegúz bal oldalt és jobb oldalt is nagyobb margó. képek kb jó helyen vannak. 
-szöveg dobozok legyenek beljebb tolva
-
-Lepj meg minket helyett: Ajánlatkérés egyedi igényre! Kreativ szöveg ide 
-    Submit gomb hiányzik
-
-Lentre a gombok helyett fehér FB ikonok
-
-Lablec es utolsó kommentelo kozott tobb hely
- */
