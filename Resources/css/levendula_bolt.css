@@ -1,4 +1,4 @@
-/* szineket kiprobalni */
+/* szinek */
 
 custom_colors {
     background: #e2a32e;
@@ -38,23 +38,24 @@ nav a {
 
 nav a:hover {
     /* background: #E2B7E2; */
-    background: #e2a32e;
+    background: #E2B7E2;
     color: #333333;
 }
 
 .active {
     color: #333333;
     /* background: #E2B7E2; */
-    background: #e2a32e;
+    background: #E2B7E2;
 }
 
 h2 span {
     display: inline-block;
     padding: 20px 40px;
-    background-color: #e2a32e;
+    background-color: #98639b;
 }
 
 h2 {
+    color: #E2B7E2;
     margin-top: 100px;
     margin-bottom: 80px;
     margin-left: 80px;
@@ -117,14 +118,19 @@ h2 {
 }
 
 div.comment-text {
+    color: white;
     background: #98639b;
     padding: 30px;
     margin-top: 0%;
     font-style: italic;
 }
 
+.comment-text p {
+    font-size: 20px;
+}
+
 .comment-text h1 {
-    color: #e2a32e;
+    color: #E2B7E2;
     font-size: 30px;
     text-transform: uppercase;
     padding-bottom: 20px;
@@ -206,14 +212,14 @@ h3 {
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    color: #e2a32e;
+    color: #E2B7E2;
 }
 
 .form-input {
     background: white;
     border: 1px solid #E0E0E0;
     height: 30px;
-    width: 42%;
+    width: 42.7%;
     font-family: Verdana;
     padding: 5px;
     margin: 10px;
@@ -241,13 +247,14 @@ textarea {
 #infos p {
     padding: 5px;
     color: white;
+    font-size: 20px;
 }
 
 button {
     margin-top: 10px;
-    background: transparent;
-    color: white;
-    border: 1px solid white;
+    background: #E2B7E2;
+    color: #333333;
+    /* border: 1px solid white; */
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     text-align: center;
@@ -282,14 +289,4 @@ footer {
 .btn:hover {
     background: #e2a32e;
     color: #696da3;
-}
-
-
-/* szineket kiprobalni */
-
-custom_colors {
-    background: #86837c;
-    background: #98639b;
-    background: #9b9467;
-    background: #696da3;
 }
