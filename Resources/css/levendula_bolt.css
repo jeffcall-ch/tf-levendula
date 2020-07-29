@@ -238,6 +238,7 @@ button {
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     text-align: center;
+    cursor: pointer;
 }
 
 button:hover {
@@ -257,9 +258,10 @@ footer {
 .btn {
     margin: 10px 5px 10px 5px;
     background: transparent;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    border: none;
     color: white;
-    padding: 10px 12px;
+    /* padding: 10px 12px; */
     font-size: 25px;
     cursor: pointer;
 }
