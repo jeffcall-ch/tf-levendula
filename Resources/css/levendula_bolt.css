@@ -50,9 +50,9 @@ nav a:hover {
 
 #logo {
     background-size: 100%;
-    width: 350px;
-    height: 350px;
-    margin-top: 1%;
+    width: 500px;
+    /* height: 350px; */
+    margin-top: 3%;
 }
 
 h2 span {
