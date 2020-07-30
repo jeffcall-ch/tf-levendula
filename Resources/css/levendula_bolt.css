@@ -23,7 +23,7 @@ nav {
     /* background: #BD87BF; */
     height: auto;
     padding: 10px;
-    font-family: 'Sweet Pea', cursive;
+    font-family: 'Indie Flower', cursive;
     /* text-transform: uppercase; */
     text-align: center;
 }
@@ -50,8 +50,7 @@ nav a:hover {
 
 #logo {
     background-size: 100%;
-    width: 500px;
-    /* height: 350px; */
+    width: 450px;
     margin-top: 3%;
 }
 
@@ -135,6 +134,8 @@ div.comment-text {
 
 .comment-text p {
     font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-style: normal;
 }
 
 .comment-text h1 {
@@ -228,7 +229,7 @@ h3 {
     border: 1px solid #E0E0E0;
     height: 30px;
     width: 42.7%;
-    font-family: Verdana;
+    font-family: 'Architects Daughter';
     padding: 5px;
     margin: 10px;
 }
@@ -254,6 +255,8 @@ textarea {
 
 #infos p {
     padding: 5px;
+    font-family: 'Architects Daughter';
+    font-size: 10px;
     color: white;
     font-size: 20px;
 }
@@ -263,8 +266,8 @@ button {
     background: #E2B7E2;
     color: #333333;
     /* border: 1px solid white; */
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
     text-align: center;
     cursor: pointer;
 }
