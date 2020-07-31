@@ -11,12 +11,6 @@ body {
     background: white;
 }
 
-
-/* @font-face {
-    font-family: 'Segoe';
-    src: url('../fonts/segoe_pr_regular.ttf') format('truetype');
-} */
-
 header {
     background-image: url("../img/header_background.jpg");
     background-size: 100%;
@@ -26,11 +20,9 @@ header {
 
 nav {
     background: #98639b;
-    /* background: #BD87BF; */
     height: auto;
     padding: 10px;
     font-family: 'Patrick Hand', cursive;
-    /* text-transform: uppercase; */
     text-align: center;
 }
 
@@ -38,7 +30,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 3%;
-    padding: 0.25%;
+    padding: 0.28%;
     font-size: 30px;
 }
 
