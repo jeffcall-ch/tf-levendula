@@ -29,7 +29,7 @@ nav {
     /* background: #BD87BF; */
     height: auto;
     padding: 10px;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Patrick Hand', cursive;
     /* text-transform: uppercase; */
     text-align: center;
 }
@@ -38,7 +38,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 3%;
-    padding: 0.5%;
+    padding: 0.25%;
     font-size: 30px;
 }
 
@@ -150,7 +150,7 @@ div.comment-text {
     text-transform: uppercase;
     padding-bottom: 20px;
     text-decoration: underline;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
 }
 
@@ -225,7 +225,7 @@ h3 {
     text-transform: uppercase;
     padding-bottom: 20px;
     text-decoration: underline;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Patrick Hand', cursive;
     text-align: center;
     color: #E2B7E2;
 }
