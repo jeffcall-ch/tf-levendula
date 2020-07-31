@@ -11,6 +11,12 @@ body {
     background: white;
 }
 
+
+/* @font-face {
+    font-family: 'Segoe';
+    src: url('../fonts/segoe_pr_regular.ttf') format('truetype');
+} */
+
 header {
     background-image: url("../img/header_background.jpg");
     background-size: 100%;
@@ -23,7 +29,7 @@ nav {
     /* background: #BD87BF; */
     height: auto;
     padding: 10px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Architects Daughter', cursive;
     /* text-transform: uppercase; */
     text-align: center;
 }
@@ -69,7 +75,7 @@ h2 {
     margin-right: 80px;
     font-size: 65px;
     font-weight: 700;
-    font-family: "Amatic SC", cursive;
+    font-family: "Architects Daughter", cursive;
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -144,7 +150,7 @@ div.comment-text {
     text-transform: uppercase;
     padding-bottom: 20px;
     text-decoration: underline;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Architects Daughter', cursive;
     font-style: normal;
 }
 
@@ -219,7 +225,7 @@ h3 {
     text-transform: uppercase;
     padding-bottom: 20px;
     text-decoration: underline;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Architects Daughter', cursive;
     text-align: center;
     color: #E2B7E2;
 }
